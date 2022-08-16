@@ -33,3 +33,7 @@ jobs:
           # The root LaTeX file to be compiled
           root_file: projeto.tex
 
+        - uses: actions/upload-artifact@v2
+          with:
+            name: PDF
+            path: projeto.pdf
